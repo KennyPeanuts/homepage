@@ -23,6 +23,9 @@ p {
    text-align: justify;
   }
 
+li {
+    padding: 1%;
+   }
 
 .header{background: url(./pics/blackboard/chalk.JPG) center;
         font-family: "Courier", monospace; 
