@@ -1,9 +1,9 @@
 /* The simple stylesheet for Kenneth Fortino Webpage */
 
 /* global styles */
-a:link{color: #000033; text-decoration: none;}
-a:visited{color: #000033; text-decoration: none;}
-a:hover{/*background: #000000; color: #FFFFFF; */text-decoration: underline;}
+a:link{color: #000080; text-decoration: none;}
+a:visited{color: #000080; text-decoration: none;}
+a:hover{/*background: #000000; color: #FFFFFF; */ text-decoration: underline;}
 /*styles menu links*/
 a.menu_link:link{color: black; text-decoration: none;}
 a.menu_link:visited{color: #000000; text-decoration: none;}
@@ -45,10 +45,10 @@ li {
 
 
 .feed{/*background: url(./pics/blackboard/blackboard.JPG) center center;*/
-           margin-left: 5%;
+           margin-left: auto;
            margin-right: auto; 
            padding: 1%;
-           max-width: 25%;
+           max-width: 50%;
  } /*formats twitter-feed box */ 
 
 .entry{    max-width: 50%;
