@@ -13,22 +13,23 @@ a.header_link:link{color: black; text-decoration: none;}
 a.header_link:visited{color: black; text-decoration: none;}
 a.header_link:hover{background: none; color: black; text-decoration: none;}
 
-body {
+/*body {
       font-family: monospace;
       font-size: 1em;
-      }
-p {
-   font-family: monospace;
+      }*/
+/*p {
+   font-family: sans-serif;
    padding: 1%;
    text-align: justify;
-  }
+  }*/
 
 li {
     padding: 1%;
    }
 
+
 .header{background: url(./pics/blackboard/chalk.JPG) center;
-        font-family: "Courier", monospace; 
+        font-family: monospace; 
                      font-size: 1.5em; 
                      border-top: 5px double;                      
                      border-bottom: 1px double;
@@ -36,13 +37,16 @@ li {
                      position: relative;
  } /* formats title header */
 
-.menu{font-family: "Courier", sans-serif; 
+.menu{font-family: monospace; 
                    font-size: 1em; 
                    font-weight: normal; 
-                   position: absolute; top: 1px; left: 27px;
+                   /*position: absolute; top: 1px; left: 27px;*/
                    word-spacing: 1.5em;
  } /* formats menu */
 
+.label {
+         font-family: monospace;
+        }
 
 .feed{/*background: url(./pics/blackboard/blackboard.JPG) center center;*/
            margin-left: auto;
@@ -51,7 +55,8 @@ li {
            max-width: 50%;
  } /*formats twitter-feed box */ 
 
-.entry{    max-width: 50%;
+.entry{    font-family: sans-serif;
+           max-width: 50%;
            margin-left: auto;
            margin-right: auto;
            text-align: left; 
