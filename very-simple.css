@@ -27,6 +27,10 @@ li {
     padding: 1%;
    }
 
+figcaption {
+            font-family: monospace;
+            padding: 0.5em;
+            }
 
 .header{background: url(./pics/blackboard/chalk.JPG) center;
         font-family: monospace; 
